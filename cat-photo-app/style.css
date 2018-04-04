@@ -21,3 +21,11 @@ p {
     border-style: solid;
     border-radius: 50%;
 }
+
+.silver-background {
+    background-color: silver;
+}
+
+#cat-photo-form {
+    background-color: green;
+}
