@@ -1,9 +1,17 @@
 body {
-    background-color: black;
+    background-color: #000000;
     font-family: monospace;
 
 }
 
 .pink-text {
-    color: pink;
+    color: #FFC0CB !important;
+}
+
+.blue-text {
+    color: #0000FF;
+}
+
+#orange-text {
+    color: #FFA500;
 }
