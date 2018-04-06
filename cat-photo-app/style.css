@@ -1,18 +1,5 @@
-
 h2 {
-    font-family: Lobster;
-}
-.red-text {
-    color: red
-}
-
-p {
-    font-size: 16px;
-    font-family: monospace;
-}
-
-.smaller-image {
-    width: 100px;
+    font-family: "Lobster";
 }
 
 .thick-green-border {
@@ -27,5 +14,5 @@ p {
 }
 
 #cat-photo-form {
-    background-color: green;
+    background-color: white;
 }
