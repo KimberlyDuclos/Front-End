@@ -81,11 +81,16 @@
         </div>
     </div>
     
-
-    <form action="/submit-cat-photo" id="cat-photo-form">    
-        <input type="text" required placeholder="cat photo URL">
-        <button type="submit">Submit</button>
-    </form>
+    <div class="row">
+        <form action="/submit-cat-photo" id="cat-photo-form">  
+            <div class="col-xs-7">
+                <input class="form-control" s ftype="text" required placeholder="cat photo URL">
+            </div>  
+            <div class="col-xs-5">
+                <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plan"></i>Submit</button>
+            </div>
+        </form>
+    </div>
   </div>
 </body>
 </html>
