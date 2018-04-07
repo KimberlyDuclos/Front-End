@@ -22,15 +22,27 @@
                 </div>  
         </div>            
    <div>
-        <div class="col-xs-4">
-            <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i>Like</button>
-        </div>
-        <div class="col-xs-4">
-            <button class="btn btn-block btn-info">Info</button>
-      </div> 
-      <div class="col-xs-4">
-            <button class="btn btn-block btn-danger">Delete</button>
-      </div>  
+       <div class="row">
+            <div class="col-xs-4">
+                <div class="col-row-6">
+                    <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i>Like</button>
+                </div>
+                <div class="col-row-6">
+                    
+                </div>
+                <div class="col-row-6">
+                    
+                </div>
+
+                </div>
+                <div class="col-xs-4">
+                    <button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i></fa>Info</button>
+              </div> 
+              <div class="col-xs-4">
+                    <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i>Delete</button>
+              </div> 
+       </div>
+         
   </div>
    
 
@@ -48,13 +60,27 @@
          <li>water</li>
      </ol>
     </div> 
-
-    <label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
-    <label><input type="radio" name="indoor-outdoor">Outdoor</label>
-
-    <label><input type="checkbox" name="personality" checked>Loving</label>
-    <label><input type="checkbox" name="personality">Snuggly</label>
-    <label><input type="checkbox" name="personality">Cuddly</label>
+    <div="class="row>
+        <div class="col-xs-6">
+            <label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
+        </div>
+        <div class="col-xs-6">
+            <label><input type="radio" name="indoor-outdoor">Outdoor</label>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-4">
+            <label><input type="checkbox" name="personality" checked>Loving</label>
+        </div>
+        <div class="col-xs-4">
+            <label><input type="checkbox" name="personality">Snuggly</label>
+        </div>
+        <div class="col-xs-4">
+            <label><input type="checkbox" name="personality">Cuddly</label>
+        </div>
+    </div>
+    
 
     <form action="/submit-cat-photo" id="cat-photo-form">    
         <input type="text" required placeholder="cat photo URL">
